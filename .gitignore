@@ -105,3 +105,6 @@ venv.bak/
 
 #credentials
 /Data/credentials.json
+
+#VS Code
+.vscode
