@@ -69,6 +69,3 @@ class Twit_Scraper(object):
             f'{pathToProject}/Data/{file}') if inProjectData else os.path.abspath(file)
         with open(path, encoding='utf-8') as jsonFile:
             return json.load(jsonFile)
-
-
-Twit_Scraper()
